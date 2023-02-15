@@ -15,3 +15,7 @@ while (i < 10) {
 for (let i = 0; i < 20; i++) {
   console.log("number", i);
 }
+const now = new Date();
+console.log(now.getMonth() + 1);
+console.log(now.day());
+console.log(now.getFullYear());
